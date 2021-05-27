@@ -1,11 +1,11 @@
 <template>
+
         <div>
-            <h1 class="text-center">Conversor de moedas</h1>
+            <h1 >Conversor de Dogecoin</h1>
             <div id="main">
-                  <div class="container">
-                      <Conversor moeda-a="BRL" moeda-b="USD"/>
-                      <Conversor moeda-a="USD" moeda-b="BRL"/>
-                  </div>
+                  
+                      <Conversor/>
+                  
             </div>
         </div>
         
@@ -24,9 +24,13 @@ export default {
 }
 </script>
 <style>
-      .container{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-      }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(173, 238, 238);
+    }
+    
 </style>
